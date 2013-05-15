@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WET-BOEW.Core</id>
+        <version>3.0.6</version>
+        <title>Web Experience Toolkit/Boîte à outils de l’expérience Web</title>
+        <authors>Nick Schonning</authors>
+        <owners />
+        <licenseUrl>http://wet-boew.github.io/wet-boew/License-eng.txt</licenseUrl>
+        <projectUrl>https://github.com/wet-boew/wet-boew</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Core CSS and JavaScript files used by WET</description>
+        <tags>WET, BOEW, WCAG, i18n, Accessiblity, Framework</tags>
+    </metadata>
+    <files>
+        <file src="content\_._" target="content\_._" />
+    </files>
+</package>
