@@ -10,7 +10,7 @@
 		<projectUrl>https://github.com/wet-boew/wet-boew</projectUrl>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
 		<description>Core CSS and JavaScript files used by WET. WET is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source project is led by the Government of Canada.</description>
-		<tags>WET, BOEW, WCAG, i18n, Accessiblity, Framework</tags>
+		<tags>WET, BOEW, WCAG, i18n, Accessibility, Framework</tags>
 	</metadata>
 	<files>
 		<file src="wet-boew\dist\grids\**\*.*" target="content\wet-boew\" />
