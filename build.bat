@@ -1,0 +1,1 @@
+NuGet.exe pack WET-BOEW-Core.nuspec
