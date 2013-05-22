@@ -13,8 +13,8 @@
 		<tags>WET, BOEW, WCAG, i18n, Accessibility, Framework</tags>
 	</metadata>
 	<files>
-		<file src="..\wet-boew\dist\grids\**\*.*" target="content\wet-boew\" />
-		<file src="..\wet-boew\dist\js\**\*.*" target="content\wet-boew\" />
+		<file src="..\wet-boew\dist\grids\**\*.*" target="content\dist\grids" />
+		<file src="..\wet-boew\dist\js\**\*.*" target="content\dist\js" />
 		<file src="content\web.config.transform" target="content\web.config.transform" />
 	</files>
 </package>
