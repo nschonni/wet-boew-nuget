@@ -17,6 +17,6 @@
 		</dependencies>
 	</metadata>
 	<files>
-		<file src="wet-boew\dist\theme-gcwu-fegc\**\*.*" target="content\wet-boew\" />
+		<file src="..\wet-boew\dist\theme-gcwu-fegc\**\*.*" target="content\wet-boew\" />
 	</files>
 </package>
