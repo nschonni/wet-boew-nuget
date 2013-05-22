@@ -15,5 +15,6 @@
 	<files>
 		<file src="..\wet-boew\dist\grids\**\*.*" target="content\wet-boew\" />
 		<file src="..\wet-boew\dist\js\**\*.*" target="content\wet-boew\" />
+		<file src="content\web.config.transform" target="content\web.config.transform" />
 	</files>
 </package>
