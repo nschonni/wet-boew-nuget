@@ -3,15 +3,15 @@
 	<metadata>
 		<id>WET-BOEW.Theme.GCWU-FEGC</id>
 		<version>3.0.7</version>
-		<title>WET-BOEW: GC Web Usability theme/Thème de la facilité d'emploi Web GC</title>
+		<title>WET-BOEW GCWU-FEGC Theme</title>
 		<authors>WET-BOEW Contributors, Government of Canada</authors>
 		<owners>nschonni</owners>
 		<licenseUrl>http://wet-boew.github.io/wet-boew/License-eng.txt</licenseUrl>
 		<projectUrl>https://github.com/wet-boew/wet-boew</projectUrl>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<summary>Theme files for use on Government of Canada websites.</summary>
-		<description>Theme files for use on Government of Canada websites. WET is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source project is led by the Government of Canada.</description>
-		<tags>WET, BOEW, Theme, Government</tags>
+		<summary>GC Web Usability theme (Thème de la facilité d'emploi Web GC) files for use on Government of Canada websites.</summary>
+		<description>Theme files for use on Government of Canada websites. WET-BOEW (Web Experience Toolkit / Boîte à outils de l’expérience Web) is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source project is led by the Government of Canada.</description>
+		<tags>WET-BOEW, Theme, Government of Canada</tags>
 		<dependencies>
 			<dependency id="WET-BOEW.Core" version="[3.0.7]" />
 		</dependencies>
