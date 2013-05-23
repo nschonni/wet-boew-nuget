@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>WET-BOEW.Theme.CLF2-NSI2</id>
+		<version>3.0.7</version>
+		<title>WET-BOEW CLF2-NSI2 Theme</title>
+		<authors>WET-BOEW Contributors, Government of Canada</authors>
+		<owners>nschonni</owners>
+		<licenseUrl>http://wet-boew.github.io/wet-boew/License-eng.txt</licenseUrl>
+		<projectUrl>https://github.com/wet-boew/wet-boew</projectUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<summary>Common Look and Feel 2 theme (Thème de la NSI 2.0) files for use by Government of Canada departments while they transitioning to GCWU-FEGC theme.</summary>
+		<description>Transitional theme for GoC departments not migrated to GCWU-FEGC theme. Does not include mobile support and will likely be dropped in the future. WET-BOEW (Web Experience Toolkit / Boîte à outils de l’expérience Web) is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source project is led by the Government of Canada.</description>
+		<tags>WET-BOEW, Theme, Government of Canada</tags>
+		<dependencies>
+			<dependency id="WET-BOEW.Core" version="[3.0.7]" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\wet-boew\dist\theme-clf2-nsi2\**\*.*" target="content\dist\theme-clf2-nsi2" />
+	</files>
+</package>
