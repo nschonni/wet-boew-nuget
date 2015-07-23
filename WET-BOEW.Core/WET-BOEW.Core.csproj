@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0451BAEF-DF2E-4B98-8644-94EE9415E389}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wet_boew_nuget</RootNamespace>
+    <AssemblyName>wet-boew-nuget</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\web.config.transform" />
+    <None Include="NuGetPackage.ps1" />
+    <None Include="NuGetSetup.ps1" />
+    <None Include="NuGet.exe" />
+    <None Include="NuGet.config" />
+    <None Include="Package.nuspec" />
+    <None Include="tools\init.ps1" />
+    <None Include="tools\install.ps1" />
+    <None Include="tools\uninstall.ps1" />
+    <None Include="wet-boew-cdn\.git" />
+    <None Include="wet-boew-cdn\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wet-boew-cdn\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wet-boew-cdn\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wet-boew-cdn\assets\cloud-popup-relative.png" />
+    <Content Include="wet-boew-cdn\assets\fd-slider-sprite.png" />
+    <Content Include="wet-boew-cdn\assets\loading.png" />
+    <Content Include="wet-boew-cdn\assets\mediacontrols.html" />
+    <Content Include="wet-boew-cdn\assets\multimedia.swf" />
+    <Content Include="wet-boew-cdn\assets\sprites_geomap.png" />
+    <Content Include="wet-boew-cdn\assets\sprites_share.png" />
+    <Content Include="wet-boew-cdn\assets\zoom-minus-mini.png" />
+    <Content Include="wet-boew-cdn\assets\zoom-plus-mini.png" />
+    <Content Include="wet-boew-cdn\assets\zoom-world-mini.png" />
+    <Content Include="wet-boew-cdn\css\noscript.css" />
+    <Content Include="wet-boew-cdn\css\noscript.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\datalist.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\datalist.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\datepicker.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\datepicker.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\details.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\details.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\meter.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\meter.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\progress.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\progress.min.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\slider.css" />
+    <Content Include="wet-boew-cdn\css\polyfills\slider.min.css" />
+    <Content Include="wet-boew-cdn\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wet-boew-cdn\js\deps\additional-methods.js" />
+    <Content Include="wet-boew-cdn\js\deps\additional-methods.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\geomap-lib.js" />
+    <Content Include="wet-boew-cdn\js\deps\geomap-lib.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.dataTables.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.dataTables.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.canvas.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.canvas.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.orderBars.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.orderBars.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.pie.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.flot.pie.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.magnific-popup.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.magnific-popup.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.pjax.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.pjax.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.validate.js" />
+    <Content Include="wet-boew-cdn\js\deps\jquery.validate.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-apollo.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-apollo.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-basic.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-basic.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-clj.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-clj.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-css.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-css.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-dart.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-dart.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-erlang.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-erlang.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-go.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-go.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-hs.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-hs.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-lisp.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-lisp.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-llvm.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-llvm.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-lua.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-lua.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-matlab.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-matlab.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-ml.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-ml.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-mumps.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-mumps.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-n.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-n.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-pascal.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-pascal.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-proto.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-proto.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-r.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-r.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-rd.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-rd.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-scala.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-scala.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-sql.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-sql.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-tcl.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-tcl.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-tex.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-tex.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-vb.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-vb.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-vhdl.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-vhdl.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-wiki.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-wiki.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-xq.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-xq.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-yaml.js" />
+    <Content Include="wet-boew-cdn\js\deps\lang-yaml.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\OpenLayers.js" />
+    <Content Include="wet-boew-cdn\js\deps\OpenLayers.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\prettify.js" />
+    <Content Include="wet-boew-cdn\js\deps\prettify.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\proj4.js" />
+    <Content Include="wet-boew-cdn\js\deps\proj4.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\run_prettify.js" />
+    <Content Include="wet-boew-cdn\js\deps\run_prettify.min.js" />
+    <Content Include="wet-boew-cdn\js\deps\tableparser.js" />
+    <Content Include="wet-boew-cdn\js\deps\tableparser.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\af.js" />
+    <Content Include="wet-boew-cdn\js\i18n\af.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ar.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ar.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\bg.js" />
+    <Content Include="wet-boew-cdn\js\i18n\bg.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\cs.js" />
+    <Content Include="wet-boew-cdn\js\i18n\cs.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\de.js" />
+    <Content Include="wet-boew-cdn\js\i18n\de.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\el.js" />
+    <Content Include="wet-boew-cdn\js\i18n\el.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\en.js" />
+    <Content Include="wet-boew-cdn\js\i18n\en.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\es.js" />
+    <Content Include="wet-boew-cdn\js\i18n\es.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\et.js" />
+    <Content Include="wet-boew-cdn\js\i18n\et.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\fr.js" />
+    <Content Include="wet-boew-cdn\js\i18n\fr.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hi.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hi.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hu.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hu.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hy.js" />
+    <Content Include="wet-boew-cdn\js\i18n\hy.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\id.js" />
+    <Content Include="wet-boew-cdn\js\i18n\id.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\is.js" />
+    <Content Include="wet-boew-cdn\js\i18n\is.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\it.js" />
+    <Content Include="wet-boew-cdn\js\i18n\it.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ja.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ja.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ko.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ko.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\lt.js" />
+    <Content Include="wet-boew-cdn\js\i18n\lt.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\lv.js" />
+    <Content Include="wet-boew-cdn\js\i18n\lv.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\nl.js" />
+    <Content Include="wet-boew-cdn\js\i18n\nl.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pl.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pl.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pt-BR.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pt-BR.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pt.js" />
+    <Content Include="wet-boew-cdn\js\i18n\pt.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ru.js" />
+    <Content Include="wet-boew-cdn\js\i18n\ru.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\sk.js" />
+    <Content Include="wet-boew-cdn\js\i18n\sk.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\sq.js" />
+    <Content Include="wet-boew-cdn\js\i18n\sq.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\th.js" />
+    <Content Include="wet-boew-cdn\js\i18n\th.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\tr.js" />
+    <Content Include="wet-boew-cdn\js\i18n\tr.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\uk.js" />
+    <Content Include="wet-boew-cdn\js\i18n\uk.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\vi.js" />
+    <Content Include="wet-boew-cdn\js\i18n\vi.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\zh-Hans.js" />
+    <Content Include="wet-boew-cdn\js\i18n\zh-Hans.min.js" />
+    <Content Include="wet-boew-cdn\js\i18n\zh.js" />
+    <Content Include="wet-boew-cdn\js\i18n\zh.min.js" />
+    <Content Include="wet-boew-cdn\js\ie8-wet-boew.js" />
+    <Content Include="wet-boew-cdn\js\ie8-wet-boew.min.js" />
+    <Content Include="wet-boew-cdn\js\ie8-wet-boew2.js" />
+    <Content Include="wet-boew-cdn\js\ie8-wet-boew2.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datalist.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datalist.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datalist_dynamic.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datalist_dynamic.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datepicker.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\datepicker.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\details.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\details.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\jawsariafixes.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\jawsariafixes.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\meter.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\meter.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\mobile.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\mobile.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\progress.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\progress.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\slider.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\slider.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\slider_wrapper.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\slider_wrapper.min.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\svg.js" />
+    <Content Include="wet-boew-cdn\js\polyfills\svg.min.js" />
+    <Content Include="wet-boew-cdn\js\wet-boew.js" />
+    <Content Include="wet-boew-cdn\js\wet-boew.min.js" />
+    <Content Include="wet-boew-cdn\Licence-fr.txt" />
+    <Content Include="wet-boew-cdn\License-en.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>-->
+  <Target Name="AfterBuild">
+    <Delete Files=".\NuGet.log" />
+    <Exec WorkingDirectory="$(MSBuildProjectDirectory)" Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " ContinueOnError="True" Command="PowerShell.exe -NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Unrestricted -Command &quot;&amp; {.\NuGetPackage.ps1} &quot;" IgnoreExitCode="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExitCode" />
+    </Exec>
+    <Exec WorkingDirectory="$(MSBuildProjectDirectory)" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " ContinueOnError="True" Command="PowerShell.exe -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command &quot;&amp; {.\NuGetPackage.ps1 -Publish} &quot;" IgnoreExitCode="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExitCode" />
+    </Exec>
+    <Message Text=" " Importance="High" />
+    <Message Text="Build Exit Code: $(ExitCode)" Importance="High" />
+    <Error Text="Encountered error(s) when creating package.%0aCheck the NuGet.log file for details." Condition=" '$(ExitCode)' == '1' " File="NuGet.log" />
+    <Error Text="Created package but encountered error(s) when trying to publish it.%0aCheck the NuGet.log file for details." Condition=" '$(Configuration)|$(Platform)|$(ExitCode)' == 'Release|AnyCPU|2' " File="NuGet.log" />
+    <Message Text="SUCCESS: Created package." Condition=" '$(Configuration)|$(Platform)|$(ExitCode)' == 'Debug|AnyCPU|0' " Importance="High" />
+    <Message Text="SUCCESS: Published package." Condition=" '$(Configuration)|$(Platform)|$(ExitCode)' == 'Release|AnyCPU|0' " Importance="High" />
+  </Target>
+</Project>
